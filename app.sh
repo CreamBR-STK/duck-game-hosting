@@ -9,11 +9,11 @@
 
 # GPL License
 
-echo Welcome to Duck Local Hosting :)
+echo Welcome to Duck Local Hosting :3
 echo Pick an option:
-echo 1) Install or configure SuperTuxKart server (WIP)
-echo 2) Install or configure MC Java server (WIP)
-echo 3) About this project
+echo 1. Install or configure SuperTuxKart server (WIP)
+echo 2. Install or configure MC Java server (WIP)
+echo 3. About this project
 read option
 
 case "$option" in 

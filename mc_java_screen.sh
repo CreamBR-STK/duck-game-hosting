@@ -8,10 +8,10 @@
 
 echo Minecraft Java configurator
 echo Pick an option:
-echo 1) Install a new MC Java server
-echo 2) Configure the server.properties of a server
-echo 3) Add worlds or mods on a server
-echo 4) Go back
+echo 1. Install a new MC Java server
+echo 2. Configure the server.properties of a server
+echo 3. Add worlds or mods on a server
+echo 4. Go back
 read option
 
 case "$option" in 
