@@ -46,7 +46,8 @@ OPTION=$(cat "$TEMP_FILE")
 
 if [ $RETURN_CODE -eq 0 ]; then
 	case "$OPTION" in 
-		1)  clear; dialog --title "About this project" \
+		1)  clear; dialog --cr-wrap \ 
+				   --title "About this project" \
 				   --textbox ABOUT 20 65
 		    if [ $RETURN_CODE -eq 0 ]; then
 				clear; exec $0
