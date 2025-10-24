@@ -15,7 +15,7 @@ function stk_screen
 			--menu "Select an option:" 0 0 2 \
 			1 "Go back" \
 			2 "Install a new SuperTuxKart server" \
-			3 "Configure the .xml of a server" 2> "$TEMP_FILE"
+			3 "Edit the .xml of a server" 2> "$TEMP_FILE"
 #   (WIP)	4 "Read the database of a server" \
 #   (WIP)	5 "Manage the installed add-ons or install more" 
 	
@@ -27,7 +27,7 @@ function stk_screen
 		    ;;
 		2)  source ./stk_install_server.sh
 		    ;;
-		3)  source ./stk_xml_config.sh
+		3)  source ./stk_xml_editor.sh
 		    ;;
 		*)  dialog --textbox "Error! You choose a inexistent option. Try again." 0 0; sleep 1; exec
 		    ;;
