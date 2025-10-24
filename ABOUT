@@ -1,1 +1,25 @@
-Nothin' yet :P
+Hi :) I’m Gustavo Barreira, a Brazilian devloper based in São Paulo. I started to use Linux in 2020, and a few years later, I became a loyal user of this system. I’m also a player of SuperTuxKart and Minecraft, and thinking of those who want to set up a server for these games but don't know where to start, I decided to create this wizard, wrote in BASH (Bourne-Again Shell), perfect to use on Linux VPS and/or Termux.
+
+KEY FEATURES
+
+This shell application have this features:
+  SuperTuxKart:
+   - Game Compilation: Compiles the Vanilla or fork version with the -SERVER_ONLY flag and SQL activated.
+   -Configuration Management: Creates and manages the server configuration files using the nano editor.
+   -Simplified Add-on Installation: Allows for easy installation of add-ons.
+   -SQL File Management (COMING SOON): A feature to manage SQL files (planned for a future update).
+
+WHY IS THE “DUCK” IN THE APP NAME??
+
+On October 19th, 2025, I watched the movie “Migration” (titled “Patos” in Brazil) and loved this movie, especially a duck named Dax Mallard. I was inspired by him to name this project..
+
+THE MASCOT:
+
+The mascot is an orange and white duck called Daniel “Drex” Barreira da Silva (or just Drex). He is a gamer who loves racing and sandbox games, but he also enjoys adventures outside the digital world. He is confident and courageous. His best friends are Konqi (the KDE mascot) and Adiumy (the Adium project mascot), and he loves Danila (a female blue duck).
+
+I hope you love the application! ;)
+
+Gustavo M. Barreira, Greetings from Brazil.
+
+:3
+
