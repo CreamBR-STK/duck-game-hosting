@@ -10,15 +10,15 @@ function install_deps
 {
 	dialog 
 
-	dialog --title "Server installation" \
-		   --menu "What's your distro?" 0 0 4\
+	dialog --title "Info" \
+		   --title "Server installation" \
+		   --msgbox "You need to install some dependencies to compile SuperTuxKart" 0 0 \
+		   --and-widget \
+		   --menu "What's your distro?" 0 0 4 \
 		   deb "Debian-based distros (Debian, Ubuntu...)" \
 		   rpm "Fedora-based distros (Fedora, CentOS...)" \
 		   arch "Arch-based distros (Arch Linux, Manjaro...)" \
-		   suse "openSUSE-based distros (openSUSE, RegataOS...)" \
-		   --and-widget \
-		   --title "Server installation" \
-		   --msgbox "You need to install some dependencies to compile SuperTuxKart" 0 0 2> "$TEMP_FILE"
+		   suse "openSUSE-based distros (openSUSE, RegataOS...)" 2> "$TEMP_FILE"
 		   
 	OPTION=$(cat "$TEMP_FILE")
 	
