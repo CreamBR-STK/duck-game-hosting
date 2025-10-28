@@ -9,7 +9,8 @@
 
 TEMP_FILE=$(mktemp)
 
-function stk_screen {
+function stk_screen 
+{
 	dialog 	--title "Install or configure SuperTuxKart server" \
 			--menu "Select an option:" 0 0 3 \
 			1 "Go back" \
