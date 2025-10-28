@@ -9,7 +9,7 @@ TEMP_FILE=$(mktemp)
 function install_deps
 {
 	dialog --title "Server installation" \
-		   --infobox "You need to install some dependencies to compile SuperTuxKart" 0 0
+		   --textbox "You need to install some dependencies to compile SuperTuxKart" 0 0
 
 	dialog --title "Server installation" \
 		   --menu "What's your distro?" 0 0 4\
