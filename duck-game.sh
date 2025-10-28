@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Duck Local Hosting - Server creation and management wizard for Linux
+# Duck Game Hosting - Server creation and management wizard for Linux
 
 # Compatible games:
 # - SuperTuxKart (Vanilla or kimden code) (WIP)
@@ -35,7 +35,7 @@ function stk_screen
 fi
 }
 
-dialog 	--title "Welcome to Duck Local Hosting :3" \
+dialog 	--title "Welcome to Duck Game Hosting :3" \
 		--menu "Select an option:" 0 0 2 \
 		1 "About this project" \
 		2 "Install or configure SuperTuxKart server" 2> "$TEMP_FILE"
