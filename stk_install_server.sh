@@ -16,7 +16,7 @@ function install_deps
 		   deb "Debian-based distros (Debian, Ubuntu...)" \
 		   rpm "Fedora-based distros (Fedora, CentOS...)" \
 		   arch "Arch-based distros (Arch Linux, Manjaro...)" \
-		   suse "openSUSE-based distros (openSUSE, RegataOS...)"2> "@TEMP_FILE"
+		   suse "openSUSE-based distros (openSUSE, RegataOS...)"2> "$TEMP_FILE"
 		   
 	OPTION=$(cat "$TEMP_FILE")
 	
@@ -28,7 +28,7 @@ function select_install
 	dialog --title "Server installation" \
 		   --menu "What you want to do?" 0 0 2\
 		   game "Install/Compile the game" \
-		   server "Add a server" 2> "@TEMP_FILE"
+		   server "Add a server" 2> "$TEMP_FILE"
 		   
 	OPTION=$(cat "$TEMP_FILE")
 	
