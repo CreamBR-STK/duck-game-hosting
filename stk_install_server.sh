@@ -37,7 +37,7 @@ function install_deps
 		if [ $RETURN_CODE -eq 0 ]; then
 	case "$OPTION" in 
 		deb)    clear; root_before_install
-				dialog --title "Install deps" --textbox install_deps.log 20 65 && \
+				dialog --title "Install deps" --textbox install.log 20 65 && \
 				apt-get install build-essential cmake libbluetooth-dev libsdl2-dev \
 				libcurl4-openssl-dev libenet-dev libfreetype6-dev libharfbuzz-dev \
 				libjpeg-dev libogg-dev libopenal-dev libpng-dev \
